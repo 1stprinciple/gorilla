@@ -170,4 +170,6 @@ SUPPORTED_MODELS = [
     "accounts/fireworks/models/qwen3-30b-a3b",
     "accounts/fireworks/models/qwen3-30b-a3b-instruct-2507",
     "rlor_model",
+    "rlor/model",
+    "rlor-model",
 ]
