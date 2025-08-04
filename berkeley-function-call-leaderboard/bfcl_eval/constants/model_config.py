@@ -2058,6 +2058,30 @@ third_party_inference_model_map = {
         is_fc_model=True,
         underscore_to_dot=False,
     ),
+    "rlor-model": ModelConfig(
+        model_name="rlor-model",
+        display_name="rlor-model",
+        url="https://huggingface.co/fireworks-ai/firefunction-v2",
+        org="Fireworks",
+        license="Apache 2.0",
+        model_handler=FireworksHandler,
+        input_price=None,
+        output_price=None,
+        is_fc_model=True,
+        underscore_to_dot=False,
+    ),
+    "rlor/model": ModelConfig(
+        model_name="rlor/model",
+        display_name="rlor/model",
+        url="https://huggingface.co/fireworks-ai/firefunction-v2",
+        org="Fireworks",
+        license="Apache 2.0",
+        model_handler=FireworksHandler,
+        input_price=None,
+        output_price=None,
+        is_fc_model=True,
+        underscore_to_dot=False,
+    ),
 }
 
 
