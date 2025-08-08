@@ -21,7 +21,7 @@ class FireworksHandler(OpenAICompletionsHandler):
         )
         if model_name in ["rlor_model", "rlor/model", "rlor-model"]:
             self.client = OpenAI(
-                base_url="http://localhost:80/v1",
+                base_url="http://localhost:81/v1",
                 api_key=os.getenv("FIREWORKS_API_KEY"),
             )
 
